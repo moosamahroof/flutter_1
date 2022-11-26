@@ -41,8 +41,8 @@ class _SplashState extends State<Splash> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               ///fetching image from asset way 1
-              Image.asset(
-                "assets/images/food.png",
+              Image.network(
+                "https://media.istockphoto.com/id/1350595566/photo/cyber-security-firewall-interface-protection-concept-businesswoman-protecting-herself-from.jpg?s=612x612&w=is&k=20&c=jilPkBAnua5M94uXvDwsqPwGEIalo86uCnFkCR-Ltkk=",
                 height: 200,
                 width: 200,
               ),

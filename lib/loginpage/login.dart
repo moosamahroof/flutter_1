@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'mainScreen.dart';
+import 'MainScreen.dart';
 
 void main(){
   runApp(MaterialApp(home: HomePage(),));
@@ -71,8 +71,8 @@ class _HomePageState extends State<HomePage> {
             Padding(
               padding: const EdgeInsets.only(top: 20, bottom: 20),
               child: ElevatedButton(
-                  onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => MainScreen()));
+                 onPressed: () {
+                   Navigator.push(context, MaterialPageRoute(builder: (context) => MainScreen()));
                   },
                   child: const Text("LOGIN")),
             ),
